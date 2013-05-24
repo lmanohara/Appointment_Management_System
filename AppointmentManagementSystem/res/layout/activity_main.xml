@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <CalendarView
+        android:id="@+id/calendarViewAppoinment"
+        android:layout_width="match_parent"
+        android:layout_height="199dp"
+        android:layout_gravity="left|top" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/calendarViewAppoinment"
+        android:layout_below="@+id/calendarViewAppoinment"
+        android:layout_marginTop="30dp"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             >
+
+            <Button
+                android:id="@+id/button_create"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create" />
+
+            <Button
+                android:id="@+id/button_Edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edit" />
+
+            <Button
+                android:id="@+id/button_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delete" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button_search_app"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Search" />
+
+            <Button
+                android:id="@+id/button_move"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Move" />
+
+            <Button
+                android:id="@+id/button_translate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Translate" />
+
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

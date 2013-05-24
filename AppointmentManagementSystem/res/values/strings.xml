@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Appoinment Management</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_create">CreateActivity</string>
+    <string name="title_activity_edit">EditActivity</string>
+    <string name="title_activity_delete">DeleteActivity</string>
+    <string name="title_activity_move">MoveActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_translator">TranslatorActivity</string>
+    <string name="from_text">From:</string>
+    <string name="original_hint">Enter text to translate</string>
+    <string name="to_text">To:</string>
+    <string name="translation_error">(Translation error)</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_pref">PrefActivity</string>
+    <string name="settings_languages_title">select languages</string>
+
+</resources>
